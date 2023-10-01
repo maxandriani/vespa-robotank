@@ -2,6 +2,19 @@
 
 This small project is a firmware to control a small robot tank and esposes does controls over Bluetooth Low Energy BLE.
 
+## Install
+
+``` bash
+arduino-cli core update-index --additional-urls https://dl.espressif.com/dl/package_esp32_index.json
+
+arduino-cli core search esp32 --additional-urls https://dl.espressif.com/dl/package_esp32_index.json
+ > esp32:esp32
+
+arduino-cli core install esp32:esp32 --additional-urls https://dl.espressif.com/dl/package_esp32_index.json
+
+arduino-cli lib install "Robocore - Vespa"
+```
+
 ## Hardware
 
 - Robot platform was developed by Robocore <https://www.robocore.net/kits/kit-robo-explorer-deluxe>.

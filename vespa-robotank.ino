@@ -222,10 +222,6 @@ void setup() {
     digitalWrite(LED, HIGH);
     Serial.begin(115200); // debug purposes
 
-    // 32 horizontal 500 2500
-    // 26 vertical 1000 2500
-    // 33 distance 1250 2500
-    // 25 claw 1500 2500 
     horizontal.attach(32, 500, 2500);
     vertical.attach(26, 1500, 3000);
     distance.attach(33, 1350, 2500);
